@@ -60,6 +60,7 @@ enum GDT_HW_ASIC_TYPE
     GDT_GFX10_3_2,            ///< GFX10_3_2 GPU
     GDT_GFX10_3_4,            ///< GFX10_3_4 GPU
     GDT_GFX10_3_5,            ///< GFX10_3_5 APU
+    GDT_GFX10_3_6,            ///< GFX10_3_6 APU
     GDT_GFX11_0_0,            ///< GFX11_0_0 GPU
     GDT_GFX11_0_1,            ///< GFX11_0_1 GPU
     GDT_GFX11_0_2,            ///< GFX11_0_2 GPU

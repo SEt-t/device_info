@@ -869,6 +869,32 @@ GDT_GfxCardInfo gs_cardInfo[] = {
     {GDT_GFX10_3_5, 0x1681, 0xDE, GDT_HW_GENERATION_GFX103, true, "gfx1035", "AMD Radeon(TM) Graphics"},
     {GDT_GFX10_3_5, 0x1681, 0xDF, GDT_HW_GENERATION_GFX103, true, "gfx1035", "AMD Radeon(TM) Graphics"},
 
+    // GFX10_3_6
+    {GDT_GFX10_3_6, 0x164E, 0xC1, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xC2, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xC3, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xC4, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xC5, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xC6, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xC7, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xC9, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xCA, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xCB, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xD1, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xD2, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xD3, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) Graphics"},
+    {GDT_GFX10_3_6, 0x164E, 0xD8, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) 610M"},
+    {GDT_GFX10_3_6, 0x164E, 0xD9, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) 610M"},
+    {GDT_GFX10_3_6, 0x164E, 0xDA, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) 610M"},
+    {GDT_GFX10_3_6, 0x164E, 0xDB, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) 610M"},
+    {GDT_GFX10_3_6, 0x164E, 0xDC, GDT_HW_GENERATION_GFX103, true, "gfx1036", "AMD Radeon(TM) 610M"},
+
+    // GFX10_3_7
+    {GDT_GFX10_3_6, 0x1506, 0xC1, GDT_HW_GENERATION_GFX103, true, "gfx1037", "AMD Radeon(TM) 610M"},
+    {GDT_GFX10_3_6, 0x1506, 0xC2, GDT_HW_GENERATION_GFX103, true, "gfx1037", "AMD Radeon(TM) 610M"},
+    {GDT_GFX10_3_6, 0x1506, 0xC3, GDT_HW_GENERATION_GFX103, true, "gfx1037", "AMD Radeon(TM) 610M"},
+    {GDT_GFX10_3_6, 0x1506, 0xC4, GDT_HW_GENERATION_GFX103, true, "gfx1037", "AMD Radeon(TM) 610M"},
+
     // GFX11_0_0
     {GDT_GFX11_0_0, 0x73A8, 0x00, GDT_HW_GENERATION_GFX11, false, "gfx1100", "AMD Radeon(TM) Graphics"},
     {GDT_GFX11_0_0, 0x744C, 0xC0, GDT_HW_GENERATION_GFX11, false, "gfx1100", "AMD Radeon(TM) Graphics"},
@@ -1081,6 +1107,7 @@ GDT_DeviceInfo gs_deviceInfo[] = {
     {2, 16, 1, 16, 2, 64, 2, 8, 2, true},   // GDT_GFX10_3_2
     {1, 16, 1, 16, 2, 64, 2, 8, 2, true},   // GDT_GFX10_3_4
     {1, 16, 1, 16, 1, 64, 2, 6, 2, true},   // GDT_GFX10_3_5
+    {1, 16, 1, 16, 1, 64, 1, 2, 2, true},   // GDT_GFX10_3_6
     {6, 16, 1, 8, 12, 64, 2, 8, 2, true},   // GDT_GFX11_0_0
     {3, 16, 1, 8, 6, 64, 2, 10, 2, true},   // GDT_GFX11_0_1
     {2, 16, 1, 8, 4, 64, 2, 8, 2, true},    // GDT_GFX11_0_2
